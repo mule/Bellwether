@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellWether", "BellWether\BellWether.csproj", "{4657F0DD-F152-46B9-88DF-B5B810D7CBC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellWether.Tests", "BellWether.Tests\BellWether.Tests.csproj", "{C0908BB2-BC63-49AE-AF0B-499B6D3FCFE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4657F0DD-F152-46B9-88DF-B5B810D7CBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4657F0DD-F152-46B9-88DF-B5B810D7CBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4657F0DD-F152-46B9-88DF-B5B810D7CBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4657F0DD-F152-46B9-88DF-B5B810D7CBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0908BB2-BC63-49AE-AF0B-499B6D3FCFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0908BB2-BC63-49AE-AF0B-499B6D3FCFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0908BB2-BC63-49AE-AF0B-499B6D3FCFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0908BB2-BC63-49AE-AF0B-499B6D3FCFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
