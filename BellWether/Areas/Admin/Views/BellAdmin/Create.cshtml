@@ -1,6 +1,8 @@
-﻿@{
+﻿@model BellWether.Models.Bell
+@{
     ViewBag.Title = "Create Bell";
     Layout = "~/Areas/Admin/Views/Shared/AdminMaster.cshtml";
+ 
 }
 @section AdditinalStyles{
  <link href="@Url.Content("~/Content/Forms.css")" rel="stylesheet" type="text/css" />
@@ -10,7 +12,8 @@
 <h2>Create</h2>
 
 @using(Html.BeginForm("Create", "BellAdmin", new {@class="adminForm"})){
-<label>Bell name:</label><input type="text" />
+<label>Name:</label> @Html.TextBoxFor(b => b.Name)
+<input type="submit" id="btnSubmitBell" value="Create Bell" />
 }
 
 

@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using BellWether.Models;
 
 namespace BellWether {
   // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -41,6 +44,11 @@ namespace BellWether {
 
       RegisterGlobalFilters(GlobalFilters.Filters);
       RegisterRoutes(RouteTable.Routes);
+      Database.DefaultConnectionFactory = new SqlCeConnectionFactory("System.Data.SqlServerCe.4.0");
+      Database.SetInitializer(new 	DropCreateDatabaseIfModelChanges<BellwetherContext>());
+     
+
+
     }
   }
 }
