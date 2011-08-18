@@ -19,6 +19,7 @@ namespace BellWether {
 
     public static void RegisterRoutes(RouteCollection routes) {
       routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+        routes.IgnoreRoute("svc/{resources}.svc/{*pathInfo}");
 
       routes.MapRoute(
           "Admin", // Route name
